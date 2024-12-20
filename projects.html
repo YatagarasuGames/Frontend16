@@ -1,0 +1,106 @@
+<div class="aside">
+    <p class="aside-title">Навигация</p>
+    <a class="aside-link" href="#WebDev">Разработка веб-приложения</a>
+    <a class="aside-link" href="#development">Разработка</a>
+    <a class="aside-link" href="#workWithUs">Работа с нами</a>
+</div>
+
+<main>
+    <div id="blur"></div>
+
+    <form id="form-buy">
+        <div id="form-close">✕</div>
+
+        <h1 class="form-title">Разработка веб-приложения</h1>
+
+        <p class="form-intro">Заполните форму и мы обязательно свяжемся с вами в ближайшее время для уточнения деталей</p>
+
+        <div class="form-section">
+            <label for="name">Как вас зовут</label>
+            <input type="text" id="name" class="input" placeholder="Иванов Иван Иванович">
+        </div>
+
+        <div class="form-section">
+            <label for="email">Ваш e-mail</label>
+            <input type="email" id="email" class="input" placeholder="test@mail.ru">
+        </div>
+
+        <div class="form-section">
+            <label for="phone">Телефон</label>
+            <input type="tel" id="phone" class="input" placeholder="+7 999 999 99 99">
+        </div>
+
+        <div class="form-section">
+            <label for="country">Страна</label>
+            <select id="country" class="input">
+                <option value="0">Россия</option>
+                <option value="1">Америка</option>
+                <option value="2">Беларусь</option>
+                <option value="3">Казахстан</option>
+                <option value="4">Турция</option>
+                <option value="5">Другое</option>
+            </select>
+        </div>
+
+        <div class="form-section">
+            <label for="date">Дата</label>
+            <input type="date" id="date" class="input">
+        </div>
+
+        <div class="form-section">
+            <label for="comment">Комментарий</label>
+            <textarea id="comment" class="input"></textarea>
+        </div>
+
+        <div class="form-section form-section-agree">
+            <input type="checkbox" id="agree">
+            <label for="agree">Согласен на обработку моих персональных данных</label>
+        </div>
+
+        <input type="submit" id="form-buy-submit" value="Отправить заявку">
+    </form>
+    <div class="main-wrapper">
+        <h2 class="main-wrapper-title">Разработка веб приложений</h2>
+
+        <section class="main-photo-wrapper">
+            <div class="main-photo">
+                <img alt="game1" src="game1.jpg">
+                <p>Сайт визитка</p>
+                <button class="btn-buy" id = "openModal">Заказать</button>
+            </div>
+            
+            <div class="main-photo">
+                <img alt="game2" src="game2.jpg">
+                <p>Корпоративный сайт</p>
+                <button class="btn-buy" id = "openModal">Заказать</button>
+            </div>
+            
+            <div class="main-photo">
+                <img alt="game3" src="game3.png">
+                <p>Интернет магазин</p>
+                <button class="btn-buy" id = "openModal">Заказать</button>
+            </div>
+        </section>
+
+        <section class="main-text-wrapper" id="development">
+            <p class="main-text-title">Разработка</p>
+            <p class="main-text">
+                Yatagarasu Games - инди-компания разработчик компьютерных игр. Была основана в 2019 году, активную деятельность ведет с 2021 года. На данный момент выложено 3 игры и 1 приложение(подробнее в блоке игры).
+            </p>
+            
+            <p class="main-text-title" id = "workWithUs">Работа с нами</p>
+            <p class="main-text">
+                Работа с нами - одно удовольствие!
+                Своевременные выплаты, высокая заработная плата, дружелюбный коллектив<br>
+                Всего есть 3 отделения:<br>
+                • Сочи<br>
+                • Москва<br>
+                • Новокузнецк<br>
+                Однако постоянно открываются новые отделения!
+                Прямо сейчас у нас идет набор на самые разные должности, так что если хотите работать с нами, то пишите нам!
+            </p>
+        </section>        
+    </div>
+</main>
+
+<script src="../scripts/projects.js"></script>
